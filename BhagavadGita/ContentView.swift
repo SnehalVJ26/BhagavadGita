@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CoreData
+import BGUtility
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
@@ -39,6 +40,10 @@ struct ContentView: View {
                 }
             }
             Text("Select an item")
+        }.onAppear {
+            let bglogger: BGLoggerType = BGLogger()
+            bglogger.debug("Debug Message")
+            bglogger.error("Error Message")
         }
     }
 

@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "bgutility",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnehalVJ26/BGUtility.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a3e2076d90e1c2dc460e46d7cec20c142d81389c"
+      }
+    },
+    {
+      "identity" : "swiftybeaver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyBeaver/SwiftyBeaver.git",
+      "state" : {
+        "revision" : "1080914828ef1c9ca9cd2bad50667b3d847dabff",
+        "version" : "2.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
