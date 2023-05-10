@@ -12,7 +12,7 @@ struct ContentView: View {
     @ObservedObject var viewModel = ContentViewModel()
     var body: some View {
         NavigationView {
-            Text("View load")
+            Text("ContentView.bhagavad_gita_chapter \("1")")
         }.onAppear {
             viewModel.onAppear()
         }

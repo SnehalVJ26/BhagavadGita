@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  BhagavadGita
+
+  Created by mnameit on 10/05/23.
+  
+*/
+
+// Content View
+"ContentView.bhagavad_gita_chapter %@" = "भगवद गीता अध्याय %@";
